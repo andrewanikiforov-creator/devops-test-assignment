@@ -1,0 +1,16 @@
+# Игнорировать папки и файлы Docker
+.dockerignore
+.docker/
+*.md
+
+# Игнорировать временные файлы ОС
+.DS_Store
+Thumbs.db
+
+# Игнорировать файлы Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Игнорировать файлы и папки, созданные docker-compose
+docker-compose.override.yml
+docker-compose.ci.yml
